@@ -14,7 +14,7 @@
         Long Description:<p class="mb-4 text-slate-700">{{ $task->long_description }}</p>
     @endif
 
-    Completed:<p>{{ $task->completed_label }}</p>
+    {{-- Completed:<p>{{ $task->completed_label }}</p> --}}
 
     <p class="mb-4 text-sm text-slate-500">Created {{ $task->created_at->diffForHumans() }} • Updated
         {{ $task->updated_at->diffForHumans() }}</p>

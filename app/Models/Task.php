@@ -18,10 +18,10 @@ class Task extends Model
         $this->save();
     }
 
-    public function getCompletedLabelAttribute()
-    {
-        return $this->completed ? 'yes' : 'no';
-    }
+    // public function getCompletedLabelAttribute()
+    // {
+    //     return $this->completed ? 'yes' : 'no';
+    // }
 
 }
 

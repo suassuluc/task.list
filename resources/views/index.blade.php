@@ -22,6 +22,4 @@
         </nav>
     @endif
 
-    <a href="{{ route('tasks.create') }}">Create Tasks</a>
-
 @endsection
